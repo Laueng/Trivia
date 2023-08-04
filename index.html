@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- Titulo -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=width", initial-scale="1.0">
+    <title>TRIVIA</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+
+    <header>
+        <h1>TRIVIA QUIZ</h1>
+        
+    </header>
+
+    <!-- Contenido del cuerpo de la página -->
+
+    <div class="container">
+        <section id="p0">
+
+           <!-- Preguntas --> 
+
+            <h3>1. ¿Cuantas maravillas hay en el mundo?</h3>
+            <label>
+
+            <!-- Opciones de respuesta --> 
+
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> 7
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> 3
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> 4
+            </label>
+        </section>
+        <section id="p1">
+
+            <!-- Preguntas -->
+
+            <h3>2. ¿Cual es el país más joven?</h3>
+            <label>
+                <!-- Opciones de respuesta --> 
+
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Sudán del sur
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> Dinamarca
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> Argentina
+            </label>
+        </section>
+
+        <!-- Resultados --> 
+
+        <button onclick="corregir()">RESULTADOS</button>
+        <h2>Número de aciertos: <span id="resultado"></span></h2>
+    </div>
+    <script src="script.js"></script>   
+</body>
+</html>
+
+
+

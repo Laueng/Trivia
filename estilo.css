@@ -1,0 +1,68 @@
+/* Color de fondo de la página */
+
+body{
+    background-color: #babd2b;
+}
+
+/* Diseño de encabezado */
+
+header{
+    text-align: center;
+    background: #000;
+    color:#fff;
+    padding: 10px 0;
+}
+
+/* Centrar contenido del cuerpo de la página*/
+
+.container{
+    max-width: 700px;
+    margin:auto;
+    padding: 20px;
+}
+
+/* Bordes botones opciones de respuesta */
+
+label{
+    display: block;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px dashed #babd2b;
+    margin-bottom: 3px;
+}
+/* Color resaltado de selección de respuesta */
+
+label:hover{
+    background: #e652cd;
+}
+
+/* Boton resultados */
+
+button{
+    width: 20%;
+    display: block;
+    margin:auto;
+    padding: 10px;
+
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+
+/* Color resaltado de boton selección de resultados */  
+
+}
+button:hover{
+    background: #000;
+    color: #fff;
+}
+h2{
+    text-align: center;
+}
+
+/* Color resultados */
+#resultado{
+    font-size: 20px;
+    color: rgb(233, 21, 21);
+}
